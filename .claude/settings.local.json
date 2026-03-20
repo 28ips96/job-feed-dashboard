@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 test_classify.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -c \"import dashboard; print\\(''dashboard.py imports OK''\\)\")"
+    ]
+  }
+}

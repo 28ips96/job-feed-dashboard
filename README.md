@@ -1,0 +1,70 @@
+# Job Feed v3
+
+Automated job aggregator with keyword scoring, application tracking, and networking tools.
+
+## Quick Start
+
+```bash
+git clone <repo>
+cd job_feed_v3
+python3 -m venv venv
+source venv/bin/activate
+pip install flask requests openpyxl
+python3 dashboard.py
+```
+
+Open http://localhost:5050
+
+## What It Does
+
+- Scrapes 300+ companies across Greenhouse, Lever, Ashby, SmartRecruiters, and Workday
+- Filters for PM, TPM, AI/ML PM, Strategy & Ops, FP&A, and Consulting roles
+- Scores each job 0-100 against keyword clusters (+ 🎓 +15 MBA/Master's bonus)
+- Kanban pipeline for application tracking
+- LinkedIn networking links + outreach CRM
+- One-click resume rebase prompt generation
+- Excel export with all tabs
+
+## Usage
+
+- **"Fetch Now"** button to pull latest jobs
+- **"Discover"** tab to browse and save jobs (sorted by score, status=new only)
+- **"Pipeline"** tab to track applications (Kanban: Saved → Applying → Applied → Interviewing → Offer)
+- **"Network"** tab to find connections and track outreach contacts
+- **"Export Excel"** for the full spreadsheet with all category tabs + Network sheet
+
+## Role Categories
+
+| Category | Example Titles |
+|---|---|
+| Product Manager | Senior PM, Group Product Manager |
+| AI/ML Product Manager | Product Manager, AI Platform |
+| Technical Program Manager | TPM, Engineering Program Manager |
+| Strategy & Operations | RevOps Lead, Chief of Staff |
+| Finance & Strategy / FP&A | FP&A Analyst, Strategic Finance Manager |
+| Consulting | Management Consultant, Solutions Architect |
+
+## Scoring
+
+Each job is scored 0-100 based on:
+- **Keyword match (45%)**: Relevant keywords from 11 clusters in the JD
+- **Category fit (20%)**: Title matched a target role category
+- **Visa sponsor (10%)**: Known H1B sponsor = 100, unknown = 30
+- **Freshness (10%)**: Today = 100, 3 days = 80, 7 days = 50
+- **MBA bonus (+15 flat)**: If JD mentions "MBA preferred" / "Master's required" etc.
+
+## File Structure
+
+```
+job_feed_v3/
+├── config.py           # All constants, company lists, role taxonomy
+├── filters.py          # Role classification, location, seniority, freshness
+├── fetchers.py         # ATS API fetchers (GH, Lever, Ashby, SR, Workday)
+├── scorer.py           # JD keyword scoring + MBA signal detection
+├── db.py               # SQLite database layer (jobs + contacts tables)
+├── build_excel_v3.py   # Excel builder with MBA badges + Network sheet
+├── job_feed.py         # Main orchestrator (fetch → score → save)
+├── dashboard.py        # Flask dashboard (Discover / Pipeline / Network)
+├── setup.sh            # Dependency installer
+└── README.md
+```
