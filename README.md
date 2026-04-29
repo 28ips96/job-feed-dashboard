@@ -16,7 +16,9 @@ _The core value proposition is speed: the dashboard surfaces only new and recent
 
 ----
 <img width="1986" height="1324" alt="image" src="https://github.com/user-attachments/assets/5fa1d6c0-6e31-447f-a7f9-59132371cae0" />
+----
 <img width="925" height="269" alt="Screenshot 2026-04-29 at 6 48 46 PM" src="https://github.com/user-attachments/assets/f5b8fafe-980c-4420-88e3-f1ee481a1387" />
+----
 <img width="1086" height="277" alt="image" src="https://github.com/user-attachments/assets/ed6faca2-4be0-4b93-b404-62e082631b4a" />
 
 
