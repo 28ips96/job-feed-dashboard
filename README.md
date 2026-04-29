@@ -15,12 +15,25 @@ _The core value proposition is speed: the dashboard surfaces only new and recent
 - Supports networking workflows with LinkedIn links, contact tracking, and outreach CRM.
 
 ----
-<img width="750" height="1324" alt="image" src="https://github.com/user-attachments/assets/5fa1d6c0-6e31-447f-a7f9-59132371cae0" />
+## Screenshots
 
-<img width="750" height="269" alt="Screenshot 2026-04-29 at 6 48 46 PM" src="https://github.com/user-attachments/assets/f5b8fafe-980c-4420-88e3-f1ee481a1387" />
+### Daily job feed email
 
-<img width="750" height="277" alt="image" src="https://github.com/user-attachments/assets/ed6faca2-4be0-4b93-b404-62e082631b4a" />
+<p align="center">
+  <img width="500" alt="Daily job feed email preview" src="https://github.com/user-attachments/assets/5fa1d6c0-6e31-447f-a7f9-59132371cae0" />
+</p>
 
+### Dashboard summary
+
+<p align="center">
+  <img width="650" alt="Job feed dashboard summary" src="https://github.com/user-attachments/assets/f5b8fafe-980c-4420-88e3-f1ee481a1387" />
+</p>
+
+### Role category breakdown
+
+<p align="center">
+  <img width="650" alt="Job feed role category breakdown" src="https://github.com/user-attachments/assets/ed6faca2-4be0-4b93-b404-62e082631b4a" />
+</p>
 
 ----
 
