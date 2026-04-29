@@ -54,9 +54,6 @@ Open http://localhost:5050
 | Product Manager | Senior PM, Group Product Manager |
 | AI/ML Product Manager | Product Manager, AI Platform |
 | Technical Program Manager | TPM, Engineering Program Manager |
-| Strategy & Operations | RevOps Lead, Chief of Staff |
-| Finance & Strategy / FP&A | FP&A Analyst, Strategic Finance Manager |
-| Consulting | Management Consultant, Solutions Architect |
 
 ## Scoring
 
