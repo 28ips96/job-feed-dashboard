@@ -4,8 +4,8 @@ A freshness-first job search dashboard that tracks newly posted roles from 300+ 
 
 Built for MBA candidates who want to move faster on high-fit roles across Greenhouse, Lever, Ashby, SmartRecruiters, and Workday.
 
-__The core value proposition is speed: the dashboard surfaces only new and recently posted roles, so users can apply and network while the opportunity is less crowded._
-_----
+_The core value proposition is speed: the dashboard surfaces only new and recently posted roles, so users can apply and network while the opportunity is less crowded._
+----
 
 ## Impact
 
