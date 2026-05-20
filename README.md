@@ -54,7 +54,7 @@ Open http://localhost:5050
 ## What It Does
 
 - Scrapes 300+ companies across Greenhouse, Lever, Ashby, SmartRecruiters, and Workday
-- Filters for PM, TPM, AI/ML PM, Strategy & Ops, FP&A, and Consulting roles
+- Filters for PM and TPM roles
 - Scores each job 0-100 against keyword clusters (+ 🎓 +15 MBA/Master's bonus)
 - Kanban pipeline for application tracking
 - LinkedIn networking links + outreach CRM
@@ -73,8 +73,7 @@ Open http://localhost:5050
 
 | Category | Example Titles |
 |---|---|
-| Product Manager | Senior PM, Group Product Manager |
-| AI/ML Product Manager | Product Manager, AI Platform |
+| Product Manager | Senior PM, Product Manager |
 | Technical Program Manager | TPM, Engineering Program Manager |
 
 ## Scoring
